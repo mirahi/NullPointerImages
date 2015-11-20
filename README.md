@@ -1,7 +1,5 @@
 # NullPointerImages
-University project for a frontend/backend course.
-
-by team NullPointerException
+University project for a frontend/backend course by team NullPointerException
 
 
 Project review slides on 20.11.2015: 
