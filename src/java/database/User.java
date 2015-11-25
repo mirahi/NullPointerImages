@@ -29,7 +29,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author mirah
+ * @author Azusu
  */
 @Entity
 @Table(name = "User")
@@ -192,7 +192,7 @@ public class User implements Serializable {
 
     @Override
     public String toString() {
-        return "nullpointerpackage.User[ id=" + id + " ]";
+        return "backend.User[ id=" + id + " ]";
     }
     
 }

@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author mirah
+ * @author Azusu
  */
 @Entity
 @Table(name = "Tag")
@@ -107,7 +107,7 @@ public class Tag implements Serializable {
 
     @Override
     public String toString() {
-        return "nullpointerpackage.Tag[ id=" + id + " ]";
+        return "backend.Tag[ id=" + id + " ]";
     }
     
 }

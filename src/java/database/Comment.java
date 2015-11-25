@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author mirah
+ * @author Azusu
  */
 @Entity
 @Table(name = "Comment")
@@ -135,7 +135,7 @@ public class Comment implements Serializable {
 
     @Override
     public String toString() {
-        return "nullpointerpackage.Comment[ id=" + id + " ]";
+        return "backend.Comment[ id=" + id + " ]";
     }
     
 }
