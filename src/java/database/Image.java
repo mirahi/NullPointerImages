@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author mirah
+ * @author Azusu
  */
 @Entity
 @Table(name = "Image")
@@ -81,10 +81,10 @@ public class Image implements Serializable {
         this.id = id;
     }
 
-    public Image(Integer id, String filename, Date uploadDate) {
-        this.id = id;
+    public Image(String filename, Date uploadDate, User user) {
         this.filename = filename;
         this.uploadDate = uploadDate;
+        this.fKUser = user;
     }
 
     public Integer getId() {
@@ -177,7 +177,7 @@ public class Image implements Serializable {
 
     @Override
     public String toString() {
-        return "nullpointerpackage.Image[ id=" + id + " ]";
+        return "backend.Image[ id=" + id + " ]";
     }
     
 }

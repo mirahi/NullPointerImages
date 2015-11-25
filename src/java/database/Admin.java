@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
- * @author mirah
+ * @author Azusu
  */
 @Entity
 @Table(name = "Admin")
@@ -84,7 +84,7 @@ public class Admin implements Serializable {
 
     @Override
     public String toString() {
-        return "nullpointerpackage.Admin[ fKUser=" + fKUser + " ]";
+        return "backend.Admin[ fKUser=" + fKUser + " ]";
     }
     
 }
