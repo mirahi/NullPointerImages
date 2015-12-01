@@ -1,0 +1,11 @@
+
+nav{
+    max-width: 1024px;
+    margin: auto;
+}
+
+#home-jumbotron{
+    background-image: url("../img/collage.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
